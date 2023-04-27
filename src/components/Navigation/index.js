@@ -1,20 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navigation() {
+function Navigation({ selected, setSelected }) {
+  const handleSelect = (item) => {
+    setSelected(item);
+  };
+
   return (
     <nav className="navigation">
-      <ul className="navigation__list">
-        <li className="navigation__item">
-          <a href="#about-me">About Me</a>
+      <ul>
+        <li className={selected === 'About Me' ? 'selected' : ''}>
+          <Link to="/about" onClick={() => handleSelect('About Me')}>
+            About Me
+          </Link>
         </li>
-        <li className="navigation__item">
-          <a href="#portfolio">Portfolio</a>
+        <li className={selected === 'Portfolio' ? 'selected' : ''}>
+          <Link to="/portfolio" onClick={() => handleSelect('Portfolio')}>
+            Portfolio
+          </Link>
         </li>
-        <li className="navigation__item">
-          <a href="#contact">Contact</a>
+        <li className={selected === 'Contact' ? 'selected' : ''}>
+          <Link to="/contact" onClick={() => handleSelect('Contact')}>
+            Contact
+          </Link>
         </li>
-        <li className="navigation__item">
-          <a href="#resume">Resume</a>
+        <li className={selected === 'Resume' ? 'selected' : ''}>
+          <Link to="/resume" onClick={() => handleSelect('Resume')}>
+            Resume
+          </Link>
         </li>
       </ul>
     </nav>
