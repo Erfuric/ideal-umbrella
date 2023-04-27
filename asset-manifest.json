@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ideal-umbrella/static/css/main.78bc4239.css",
-    "main.js": "/ideal-umbrella/static/js/main.1351717f.js",
+    "main.js": "/ideal-umbrella/static/js/main.de5abb54.js",
     "static/js/787.5b92dc5a.chunk.js": "/ideal-umbrella/static/js/787.5b92dc5a.chunk.js",
     "index.html": "/ideal-umbrella/index.html",
     "main.78bc4239.css.map": "/ideal-umbrella/static/css/main.78bc4239.css.map",
-    "main.1351717f.js.map": "/ideal-umbrella/static/js/main.1351717f.js.map",
+    "main.de5abb54.js.map": "/ideal-umbrella/static/js/main.de5abb54.js.map",
     "787.5b92dc5a.chunk.js.map": "/ideal-umbrella/static/js/787.5b92dc5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78bc4239.css",
-    "static/js/main.1351717f.js"
+    "static/js/main.de5abb54.js"
   ]
 }
